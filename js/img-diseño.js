@@ -189,7 +189,7 @@ function getPublicUrl() {
         return window.location.href;
     }
     // Si está en localhost (desarrollo)
-    return "img/facilitador.png"; // REEMPLAZAR CON TU URL REAL
+    return "https://imagen-bienestar.netlify.app/img/facilitador.png"; // REEMPLAZAR CON TU URL REAL
 }
 
 // Configurar eventos de los botones
