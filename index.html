@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen Interactiva Avanzada</title>
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/img-diseño.css">
+</head>
+<body>
+
+
+    
+    <div class="theme-switcher">
+        <button id="theme-btn" class="theme-btn day-mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+
+
+
+
+    <div class="social-share">
+        <button class="share-btn" id="share-wp"><i class="fab fa-whatsapp"></i></button>
+        <button class="share-btn" id="share-fb"><i class="fab fa-facebook-f"></i></button>
+        <button class="share-btn" id="share-x"><i class="fab fa-x"></i></button>
+        <button class="share-btn" id="share-ig"><i class="fab fa-instagram"></i></button>
+    </div>
+    
+    <div class="share-modal" id="share-modal">
+        <div class="share-modal-content">
+            <div class="share-spinner" id="share-spinner">
+                <div class="spinner-circle"></div>
+                <div class="spinner-circle"></div>
+                <div class="spinner-circle"></div>
+                <p>Compartiendo...</p>
+            </div>
+            <div class="share-success" id="share-success">
+                <i class="fas fa-check-circle"></i>
+                <p>¡Contenido compartido con éxito!</p>
+                <button class="share-close-btn" id="share-close-btn">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="img-container floating">
+        <div class="glass-frame"></div>
+        <div class="loader">
+            <div class="loader-spinner"></div>
+        </div>
+        <img id="facilitadores" src="img/facilitador.png" alt="Facilitadores" class="img-facilitadores">
+        <div class="tooltip pulse-effect">
+            <i class="fas fa-hand-pointer"></i> Haz clic para ver en grande
+        </div>
+        <div class="image-info">
+            <h3>Facilitadores</h3>
+            <p>Imagen interactiva con efectos avanzados</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="zoom-overlay">
+        <div class="zoom-container">
+            <img class="zoom-img">
+            <div class="zoom-controls">
+                <button class="zoom-btn" id="zoom-in"><i class="fas fa-search-plus"></i></button>
+                <button class="zoom-btn" id="zoom-out"><i class="fas fa-search-minus"></i></button>
+                <button class="zoom-btn" id="close-zoom"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <audio id="hover-sound" src="sounds/hover.mp3" preload="auto"></audio>
+    <audio id="click-sound" src="sounds/click.mp3" preload="auto"></audio>
+
+
+
+    <script src="js/img-diseño.js"></script>
+</body>
+</html>
