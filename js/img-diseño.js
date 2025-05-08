@@ -185,7 +185,7 @@ const socialNetworks = {
 // Función para obtener URL pública (compatible con GitHub Pages)
 function getPublicUrl() {
     // Si está en GitHub Pages
-    if (window.location.hostname.includes('github.io')) {
+    if (window.location.hostname.includes('netlify.com')) {
         return window.location.href;
     }
     // Si está en localhost (desarrollo)
