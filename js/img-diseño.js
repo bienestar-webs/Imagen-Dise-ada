@@ -189,7 +189,7 @@ function getPublicUrl() {
         return window.location.href;
     }
     // Si está en localhost (desarrollo)
-    return "https://tunombredeusuario.github.io/turepo/"; // REEMPLAZAR CON TU URL REAL
+    return "https://imagen-bienestar.netlify.app/"; // REEMPLAZAR CON TU URL REAL
 }
 
 // Configurar eventos de los botones
