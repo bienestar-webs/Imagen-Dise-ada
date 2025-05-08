@@ -182,14 +182,14 @@ const socialNetworks = {
     }
 };
 
-// Función para obtener URL pública (compatible con GitHub Pages)
+// Función para obtener URL pública (compatible con netlify)
 function getPublicUrl() {
-    // Si está en GitHub Pages
+    // Si está en netlify 
     if (window.location.hostname.includes('netlify.com')) {
         return window.location.href;
     }
     // Si está en localhost (desarrollo)
-    return "https://imagen-bienestar.netlify.app/"; // REEMPLAZAR CON TU URL REAL
+    return "img/facilitador.png"; // REEMPLAZAR CON TU URL REAL
 }
 
 // Configurar eventos de los botones
